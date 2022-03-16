@@ -5500,6 +5500,7 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "")
+        self.toolTempSpinBox.setFrame(False)
         self.toolTempSpinBox.setReadOnly(False)
         self.toolTempSpinBox.setButtonSymbols(QtWidgets.QAbstractSpinBox.UpDownArrows)
         self.toolTempSpinBox.setAccelerated(True)
@@ -5604,6 +5605,7 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "")
+        self.bedTempSpinBox.setFrame(False)
         self.bedTempSpinBox.setReadOnly(False)
         self.bedTempSpinBox.setButtonSymbols(QtWidgets.QAbstractSpinBox.UpDownArrows)
         self.bedTempSpinBox.setAccelerated(True)
@@ -7051,7 +7053,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         self.stackedWidget.setCurrentIndex(0)
-        self.controlTabWidget.setCurrentIndex(3)
+        self.controlTabWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):

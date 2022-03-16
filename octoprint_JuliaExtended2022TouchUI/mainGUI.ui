@@ -9156,7 +9156,7 @@ QTabBar:focus {
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>1</number>
       </property>
       <property name="iconSize">
        <size>
@@ -9877,6 +9877,9 @@ QSpinBox::down-button:pressed {
 
 </string>
         </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
         <property name="readOnly">
          <bool>false</bool>
         </property>
@@ -10031,6 +10034,9 @@ QSpinBox::down-button:pressed {
 }
 
 </string>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
         </property>
         <property name="readOnly">
          <bool>false</bool>
