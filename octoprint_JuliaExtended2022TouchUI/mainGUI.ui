@@ -11885,14 +11885,7 @@ width: 30px;
 height: 30px;
 
 }
-
-
-QComboBox QAbstractItemView {
-    selection-background-color: rgb(40, 40, 40);
-    background: white;
-margin-top: 50px;
-padding-bottom: 50px;
-}</string>
+</string>
       </property>
       <property name="editable">
        <bool>false</bool>

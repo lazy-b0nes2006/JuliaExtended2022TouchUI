@@ -6652,14 +6652,7 @@ class Ui_MainWindow(object):
 "height: 30px;\n"
 "\n"
 "}\n"
-"\n"
-"\n"
-"QComboBox QAbstractItemView {\n"
-"    selection-background-color: rgb(40, 40, 40);\n"
-"    background: white;\n"
-"margin-top: 50px;\n"
-"padding-bottom: 50px;\n"
-"}")
+"")
         self.changeFilamentComboBox.setEditable(False)
         self.changeFilamentComboBox.setMaxVisibleItems(8)
         self.changeFilamentComboBox.setIconSize(QtCore.QSize(30, 30))
