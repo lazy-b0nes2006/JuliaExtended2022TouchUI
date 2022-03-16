@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'mainGUI_julia.ui'
+# Form implementation generated from reading ui file 'mainGUI.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.0
 #
@@ -27,6 +27,7 @@ class Ui_MainWindow(object):
 "}")
         MainWindow.setTabShape(QtWidgets.QTabWidget.Rounded)
         self.mainApplication = QtWidgets.QWidget(MainWindow)
+        self.mainApplication.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.mainApplication.setObjectName("mainApplication")
         self.stackedWidget = QtWidgets.QStackedWidget(self.mainApplication)
         self.stackedWidget.setEnabled(True)
@@ -68,6 +69,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.stackedWidget.setFont(font)
+        self.stackedWidget.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.stackedWidget.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.stackedWidget.setAutoFillBackground(False)
         self.stackedWidget.setStyleSheet("\n"
@@ -77,11 +79,13 @@ class Ui_MainWindow(object):
         self.loadingPage.setObjectName("loadingPage")
         self.LoadingLabel = QtWidgets.QLabel(self.loadingPage)
         self.LoadingLabel.setGeometry(QtCore.QRect(0, 0, 481, 321))
+        self.LoadingLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.LoadingLabel.setText("")
         self.LoadingLabel.setPixmap(QtGui.QPixmap("templates/img/splash.png"))
         self.LoadingLabel.setObjectName("LoadingLabel")
         self.loadingGif = QtWidgets.QLabel(self.loadingPage)
         self.loadingGif.setGeometry(QtCore.QRect(210, 210, 50, 50))
+        self.loadingGif.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.loadingGif.setStyleSheet("background-color: rgb(255, 255, 255,0);")
         self.loadingGif.setText("")
         self.loadingGif.setScaledContents(True)
@@ -97,6 +101,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt6.setFont(font)
+        self.pgLock_bt6.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt6.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -131,6 +136,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt0.setFont(font)
+        self.pgLock_bt0.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt0.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -166,6 +172,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt4.setFont(font)
+        self.pgLock_bt4.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt4.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -201,6 +208,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.passwordlabel_4.setFont(font)
+        self.passwordlabel_4.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.passwordlabel_4.setStyleSheet("color: rgb(255, 255, 255);")
         self.passwordlabel_4.setObjectName("passwordlabel_4")
         self.pgLock_btBackspace = QtWidgets.QPushButton(self.pgLock)
@@ -211,6 +219,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_btBackspace.setFont(font)
+        self.pgLock_btBackspace.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_btBackspace.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -251,6 +260,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_btSubmit.setFont(font)
+        self.pgLock_btSubmit.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_btSubmit.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-top: none;\n"
@@ -291,6 +301,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt9.setFont(font)
+        self.pgLock_bt9.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt9.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -326,6 +337,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt8.setFont(font)
+        self.pgLock_bt8.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt8.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -360,6 +372,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt1.setFont(font)
+        self.pgLock_bt1.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt1.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -395,6 +408,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.passwordlabel_2.setFont(font)
+        self.passwordlabel_2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.passwordlabel_2.setStyleSheet("color: rgb(255, 255, 255);")
         self.passwordlabel_2.setObjectName("passwordlabel_2")
         self.pgLock_pin = QtWidgets.QLineEdit(self.pgLock)
@@ -403,6 +417,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(14)
         self.pgLock_pin.setFont(font)
+        self.pgLock_pin.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_pin.setStyleSheet("color: white;\n"
 "background-color: rgb(40, 40, 40);\n"
 "selection-color: rgb(40, 40, 40);\n"
@@ -422,6 +437,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt3.setFont(font)
+        self.pgLock_bt3.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt3.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -457,6 +473,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt7.setFont(font)
+        self.pgLock_bt7.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt7.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -491,6 +508,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.passwordlabel_5.setFont(font)
+        self.passwordlabel_5.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.passwordlabel_5.setStyleSheet("color: rgb(255, 255, 255);")
         self.passwordlabel_5.setObjectName("passwordlabel_5")
         self.pgLock_HID = QtWidgets.QLabel(self.pgLock)
@@ -501,6 +519,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_HID.setFont(font)
+        self.pgLock_HID.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_HID.setStyleSheet("color: rgb(255, 255, 255);")
         self.pgLock_HID.setAlignment(QtCore.Qt.AlignCenter)
         self.pgLock_HID.setObjectName("pgLock_HID")
@@ -512,6 +531,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt5.setFont(font)
+        self.pgLock_bt5.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt5.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -546,6 +566,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pgLock_bt2.setFont(font)
+        self.pgLock_bt2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pgLock_bt2.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-right: none;\n"
@@ -582,6 +603,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Roboto")
         self.playPauseButton.setFont(font)
+        self.playPauseButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.playPauseButton.setStyleSheet("QPushButton {\n"
 "    border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -623,6 +645,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Roboto")
         self.stopButton.setFont(font)
+        self.stopButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.stopButton.setStyleSheet("QPushButton {\n"
 "    border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -653,6 +676,7 @@ class Ui_MainWindow(object):
         self.stopButton.setObjectName("stopButton")
         self.line = QtWidgets.QFrame(self.homePage)
         self.line.setGeometry(QtCore.QRect(260, 90, 20, 111))
+        self.line.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.line.setFrameShape(QtWidgets.QFrame.VLine)
         self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line.setObjectName("line")
@@ -666,6 +690,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.tool0Label.setFont(font)
+        self.tool0Label.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.tool0Label.setStyleSheet("\n"
 "   color:  white;")
         self.tool0Label.setText("")
@@ -680,6 +705,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.FileNameLabel.setFont(font)
+        self.FileNameLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.FileNameLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.FileNameLabel.setObjectName("FileNameLabel")
         self.printTimeLabel = QtWidgets.QLabel(self.homePage)
@@ -690,6 +716,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.printTimeLabel.setFont(font)
+        self.printTimeLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printTimeLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.printTimeLabel.setObjectName("printTimeLabel")
         self.fileName = QtWidgets.QLabel(self.homePage)
@@ -698,6 +725,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Medium")
         font.setPointSize(14)
         self.fileName.setFont(font)
+        self.fileName.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileName.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.fileName.setScaledContents(True)
@@ -709,6 +737,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Medium")
         font.setPointSize(14)
         self.printTime.setFont(font)
+        self.printTime.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printTime.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.printTime.setObjectName("printTime")
@@ -720,6 +749,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.timeLeftLabel.setFont(font)
+        self.timeLeftLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.timeLeftLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.timeLeftLabel.setObjectName("timeLeftLabel")
         self.tool0TargetTemperature = QtWidgets.QLabel(self.homePage)
@@ -732,12 +762,14 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.tool0TargetTemperature.setFont(font)
+        self.tool0TargetTemperature.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.tool0TargetTemperature.setStyleSheet("\n"
 "   color:  white;\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.tool0TargetTemperature.setObjectName("tool0TargetTemperature")
         self.tool0TempBar = QtWidgets.QProgressBar(self.homePage)
         self.tool0TempBar.setGeometry(QtCore.QRect(80, 80, 16, 71))
+        self.tool0TempBar.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.tool0TempBar.setStyleSheet("QProgressBar::chunk {\n"
 "    border-radius: 5px;\n"
 "    background-color: qlineargradient(spread:pad, x1:0.517, y1:0, x2:0.522, y2:0, stop:0.0336134 rgba(74, 183, 255, 255), stop:1 rgba(53, 173, 242, 255));\n"
@@ -764,6 +796,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.tool0ActualTemperature.setFont(font)
+        self.tool0ActualTemperature.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.tool0ActualTemperature.setStyleSheet("\n"
 "   color:  white;\n"
 "background-color: rgba(0, 0, 0, 0);")
@@ -775,6 +808,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(13)
         self.menuButton.setFont(font)
+        self.menuButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.menuButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -811,6 +845,7 @@ class Ui_MainWindow(object):
         self.menuButton.setObjectName("menuButton")
         self.printPreviewMain = QtWidgets.QLabel(self.homePage)
         self.printPreviewMain.setGeometry(QtCore.QRect(280, 49, 191, 191))
+        self.printPreviewMain.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printPreviewMain.setStyleSheet("background-color: rgba(255, 255, 255, 0);")
         self.printPreviewMain.setText("")
         self.printPreviewMain.setPixmap(QtGui.QPixmap("templates/img/thumbnail.png"))
@@ -826,6 +861,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStyleStrategy(QtGui.QFont.PreferAntialias)
         self.printProgressBar.setFont(font)
+        self.printProgressBar.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printProgressBar.setStyleSheet("QProgressBar::chunk {\n"
 "\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0.523, x2:0, y2:0.534, stop:0 rgba(130, 203, 117, 255), stop:1 rgba(66, 191, 85, 255));\n"
@@ -851,6 +887,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Medium")
         font.setPointSize(14)
         self.timeLeft.setFont(font)
+        self.timeLeft.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.timeLeft.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.timeLeft.setWordWrap(False)
@@ -865,6 +902,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.printerStatus.setFont(font)
+        self.printerStatus.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printerStatus.setStyleSheet("\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.printerStatus.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
@@ -877,6 +915,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(13)
         self.controlButton.setFont(font)
+        self.controlButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.controlButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -919,6 +958,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.printerStatusColour.setFont(font)
+        self.printerStatusColour.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printerStatusColour.setStyleSheet("     border: 1px solid rgb(87, 87, 87);\n"
 "    border-radius: 10px;\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0.523, x2:0, y2:0.534, stop:0 rgba(130, 203, 117, 255), stop:1 rgba(66, 191, 85, 255));")
@@ -935,6 +975,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.celciusLabel.setFont(font)
+        self.celciusLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.celciusLabel.setStyleSheet("\n"
 "   color:  white;\n"
 "background-color: rgba(255, 255, 255, 0);")
@@ -945,6 +986,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Medium")
         font.setPointSize(14)
         self.statusBar.setFont(font)
+        self.statusBar.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.statusBar.setStyleSheet("     border-bottom: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));")
         self.statusBar.setFrameShape(QtWidgets.QFrame.NoFrame)
@@ -961,12 +1003,14 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.celciusLabel_2.setFont(font)
+        self.celciusLabel_2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.celciusLabel_2.setStyleSheet("\n"
 "   color:  white;\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.celciusLabel_2.setObjectName("celciusLabel_2")
         self.bedTempBar = QtWidgets.QProgressBar(self.homePage)
         self.bedTempBar.setGeometry(QtCore.QRect(205, 80, 16, 71))
+        self.bedTempBar.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.bedTempBar.setStyleSheet("QProgressBar::chunk {\n"
 "    border-radius: 5px;\n"
 "    background-color: qlineargradient(spread:pad, x1:0.517, y1:0, x2:0.522, y2:0, stop:0.0336134 rgba(74, 183, 255, 255), stop:1 rgba(53, 173, 242, 255));\n"
@@ -993,6 +1037,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.bedActualTemperatute.setFont(font)
+        self.bedActualTemperatute.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.bedActualTemperatute.setStyleSheet("\n"
 "   color:  white;\n"
 "background-color: rgba(0, 0, 0, 0);")
@@ -1007,6 +1052,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.bedTargetTemperature.setFont(font)
+        self.bedTargetTemperature.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.bedTargetTemperature.setStyleSheet("\n"
 "   color:  white;\n"
 "background-color: rgba(255, 255, 255, 0);")
@@ -1021,6 +1067,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.bedLabel.setFont(font)
+        self.bedLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.bedLabel.setStyleSheet("\n"
 "   color:  white;\n"
 "background-color: rgba(255, 255, 255, 0);")
@@ -1038,6 +1085,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.ipStatus.setFont(font)
+        self.ipStatus.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ipStatus.setStyleSheet("\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.ipStatus.setScaledContents(True)
@@ -1081,6 +1129,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.menuBackButton.setFont(font)
+        self.menuBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.menuBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1113,6 +1162,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(18)
         self.menuControlButton.setFont(font)
+        self.menuControlButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.menuControlButton.setStyleSheet("QToolButton {\n"
 "padding-top: 20px;\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
@@ -1144,6 +1194,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(18)
         self.menuPrintButton.setFont(font)
+        self.menuPrintButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.menuPrintButton.setStyleSheet("QToolButton {\n"
 "    padding-top: 20px;\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
@@ -1179,6 +1230,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(18)
         self.menuSettingsButton.setFont(font)
+        self.menuSettingsButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.menuSettingsButton.setStyleSheet("QToolButton {\n"
 "padding-top: 20px;\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
@@ -1212,6 +1264,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(18)
         self.menuCartButton.setFont(font)
+        self.menuCartButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.menuCartButton.setStyleSheet("QToolButton {\n"
 "padding-top: 20px;\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
@@ -1246,6 +1299,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(18)
         self.menuCalibrateButton.setFont(font)
+        self.menuCalibrateButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.menuCalibrateButton.setStyleSheet("QToolButton {\n"
 "padding-top: 20px;\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
@@ -1283,6 +1337,7 @@ class Ui_MainWindow(object):
         self.settingsPage.setObjectName("settingsPage")
         self.scrollArea = QtWidgets.QScrollArea(self.settingsPage)
         self.scrollArea.setGeometry(QtCore.QRect(0, 0, 480, 320))
+        self.scrollArea.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.scrollArea.setStyleSheet(" QScrollBar:vertical {\n"
 "     border: 1px solid black;\n"
 "border-radius: 5px;\n"
@@ -1332,7 +1387,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, -312, 461, 630))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 461, 630))
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.scrollAreaWidgetContents)
         self.verticalLayout.setContentsMargins(0, 0, 3, 0)
@@ -1344,6 +1399,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.settingsBackButton.setFont(font)
+        self.settingsBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.settingsBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1378,6 +1434,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.networkSettingsButton.setFont(font)
+        self.networkSettingsButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.networkSettingsButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1410,6 +1467,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.displaySettingsButton.setFont(font)
+        self.displaySettingsButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.displaySettingsButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1442,6 +1500,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.pairPhoneButton.setFont(font)
+        self.pairPhoneButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.pairPhoneButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1474,6 +1533,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.OTAButton.setFont(font)
+        self.OTAButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.OTAButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1506,6 +1566,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.versionButton.setFont(font)
+        self.versionButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.versionButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1538,6 +1599,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.restorePrintSettingsButton.setFont(font)
+        self.restorePrintSettingsButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.restorePrintSettingsButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1570,6 +1632,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.restoreFactoryDefaultsButton.setFont(font)
+        self.restoreFactoryDefaultsButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.restoreFactoryDefaultsButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1602,6 +1665,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.restartButton.setFont(font)
+        self.restartButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.restartButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1639,6 +1703,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.QRCodeBackButton.setFont(font)
+        self.QRCodeBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.QRCodeBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1668,11 +1733,13 @@ class Ui_MainWindow(object):
         self.QRCodeBackButton.setObjectName("QRCodeBackButton")
         self.QRCodeBackground = QtWidgets.QLabel(self.QRCodePage)
         self.QRCodeBackground.setGeometry(QtCore.QRect(120, 0, 251, 251))
+        self.QRCodeBackground.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.QRCodeBackground.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.QRCodeBackground.setText("")
         self.QRCodeBackground.setObjectName("QRCodeBackground")
         self.QRCodeLabel = QtWidgets.QLabel(self.QRCodePage)
         self.QRCodeLabel.setGeometry(QtCore.QRect(120, 0, 251, 251))
+        self.QRCodeLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.QRCodeLabel.setStyleSheet("")
         self.QRCodeLabel.setText("")
         self.QRCodeLabel.setScaledContents(True)
@@ -1689,6 +1756,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(20)
         self.wifiSettingsComboBox.setFont(font)
+        self.wifiSettingsComboBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiSettingsComboBox.setStyleSheet(" QScrollBar:vertical {\n"
 "     border: 1px solid black;\n"
 "border-radius: 5px;\n"
@@ -1800,6 +1868,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.ssidlabel.setFont(font)
+        self.ssidlabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ssidlabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.ssidlabel.setObjectName("ssidlabel")
         self.passwordlabel = QtWidgets.QLabel(self.wifiSettingsPage)
@@ -1810,6 +1879,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.passwordlabel.setFont(font)
+        self.passwordlabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.passwordlabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.passwordlabel.setObjectName("passwordlabel")
         self.wifiSettingsDoneButton = QtWidgets.QPushButton(self.wifiSettingsPage)
@@ -1818,6 +1888,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.wifiSettingsDoneButton.setFont(font)
+        self.wifiSettingsDoneButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiSettingsDoneButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1849,6 +1920,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.wifiSettingsCancelButton.setFont(font)
+        self.wifiSettingsCancelButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiSettingsCancelButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1880,6 +1952,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(19)
         self.wifiSettingsSSIDKeyboardButton.setFont(font)
+        self.wifiSettingsSSIDKeyboardButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiSettingsSSIDKeyboardButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(0, 0, 0);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1911,6 +1984,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(14)
         self.hiddenCheckBox.setFont(font)
+        self.hiddenCheckBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.hiddenCheckBox.setStyleSheet("QCheckBox {\n"
 "    color: rgb(255, 255, 255);\n"
 "}\n"
@@ -1949,6 +2023,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.ethSettingsDoneButton.setFont(font)
+        self.ethSettingsDoneButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ethSettingsDoneButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -1980,6 +2055,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.ethSettingsCancelButton.setFont(font)
+        self.ethSettingsCancelButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ethSettingsCancelButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2011,6 +2087,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(14)
         self.ethStaticCheckBox.setFont(font)
+        self.ethStaticCheckBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ethStaticCheckBox.setStyleSheet("QCheckBox {\n"
 "    color: rgb(255, 255, 255);\n"
 "}\n"
@@ -2036,6 +2113,7 @@ class Ui_MainWindow(object):
         self.ethStaticSettings = QtWidgets.QWidget(self.ethSettingsPage)
         self.ethStaticSettings.setEnabled(True)
         self.ethStaticSettings.setGeometry(QtCore.QRect(0, 70, 481, 151))
+        self.ethStaticSettings.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ethStaticSettings.setObjectName("ethStaticSettings")
         self.ethStaticIpLabel = QtWidgets.QLabel(self.ethStaticSettings)
         self.ethStaticIpLabel.setGeometry(QtCore.QRect(10, 10, 110, 30))
@@ -2045,6 +2123,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.ethStaticIpLabel.setFont(font)
+        self.ethStaticIpLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ethStaticIpLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.ethStaticIpLabel.setObjectName("ethStaticIpLabel")
         self.ethStaticGatewayLabel = QtWidgets.QLabel(self.ethStaticSettings)
@@ -2055,6 +2134,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.ethStaticGatewayLabel.setFont(font)
+        self.ethStaticGatewayLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ethStaticGatewayLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.ethStaticGatewayLabel.setObjectName("ethStaticGatewayLabel")
         self.ethStaticGatewayKeyboardButton = QtWidgets.QPushButton(self.ethStaticSettings)
@@ -2065,6 +2145,7 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.ethStaticGatewayKeyboardButton.setFont(font)
+        self.ethStaticGatewayKeyboardButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ethStaticGatewayKeyboardButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(0, 0, 0);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2099,6 +2180,7 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.ethStaticIpKeyboardButton.setFont(font)
+        self.ethStaticIpKeyboardButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ethStaticIpKeyboardButton.setAutoFillBackground(False)
         self.ethStaticIpKeyboardButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(0, 0, 0);\n"
@@ -2135,6 +2217,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.networkInfoButton.setFont(font)
+        self.networkInfoButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.networkInfoButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2167,6 +2250,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.configureWifiButton.setFont(font)
+        self.configureWifiButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.configureWifiButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2199,6 +2283,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.configureEthButton.setFont(font)
+        self.configureEthButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.configureEthButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2231,6 +2316,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.networkSettingsBackButton.setFont(font)
+        self.networkSettingsBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.networkSettingsBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2268,6 +2354,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.displaySettingsBackButton.setFont(font)
+        self.displaySettingsBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.displaySettingsBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2302,6 +2389,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.calibrateTouch.setFont(font)
+        self.calibrateTouch.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrateTouch.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2334,6 +2422,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.rotateDisplay.setFont(font)
+        self.rotateDisplay.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.rotateDisplay.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2368,6 +2457,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.rotateDisplaySettingsDoneButton.setFont(font)
+        self.rotateDisplaySettingsDoneButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.rotateDisplaySettingsDoneButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2399,6 +2489,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.rotateDisplaySettingsCancelButton.setFont(font)
+        self.rotateDisplaySettingsCancelButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.rotateDisplaySettingsCancelButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2430,6 +2521,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(20)
         self.rotateDisplaySettingsComboBox.setFont(font)
+        self.rotateDisplaySettingsComboBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.rotateDisplaySettingsComboBox.setStyleSheet(" QScrollBar:vertical {\n"
 "     border: 1px solid black;\n"
 "border-radius: 5px;\n"
@@ -2543,6 +2635,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.rotateDisplaySettingsLabel.setFont(font)
+        self.rotateDisplaySettingsLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.rotateDisplaySettingsLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.rotateDisplaySettingsLabel.setObjectName("rotateDisplaySettingsLabel")
         self.stackedWidget.addWidget(self.rotateDisplaySettingsPage)
@@ -2556,6 +2649,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.hostnameLabel.setFont(font)
+        self.hostnameLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.hostnameLabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.hostnameLabel.setObjectName("hostnameLabel")
@@ -2567,6 +2661,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.hostname.setFont(font)
+        self.hostname.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.hostname.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.hostname.setObjectName("hostname")
@@ -2578,6 +2673,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.wifiIpLabel.setFont(font)
+        self.wifiIpLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiIpLabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.wifiIpLabel.setObjectName("wifiIpLabel")
@@ -2589,6 +2685,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.wifiMac.setFont(font)
+        self.wifiMac.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiMac.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.wifiMac.setObjectName("wifiMac")
@@ -2600,6 +2697,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.lanIpLabel.setFont(font)
+        self.lanIpLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.lanIpLabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.lanIpLabel.setObjectName("lanIpLabel")
@@ -2611,6 +2709,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.lanMac.setFont(font)
+        self.lanMac.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.lanMac.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.lanMac.setObjectName("lanMac")
@@ -2621,6 +2720,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.networkInfoBackButton.setFont(font)
+        self.networkInfoBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.networkInfoBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2656,6 +2756,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.wifiMacLabel.setFont(font)
+        self.wifiMacLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiMacLabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.wifiMacLabel.setObjectName("wifiMacLabel")
@@ -2667,6 +2768,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.lanMacLabel.setFont(font)
+        self.lanMacLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.lanMacLabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.lanMacLabel.setObjectName("lanMacLabel")
@@ -2678,6 +2780,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.wifiIp.setFont(font)
+        self.wifiIp.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiIp.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.wifiIp.setObjectName("wifiIp")
@@ -2689,6 +2792,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.lanIp.setFont(font)
+        self.lanIp.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.lanIp.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.lanIp.setObjectName("lanIp")
@@ -2700,6 +2804,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.wifiApLabel.setFont(font)
+        self.wifiApLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiApLabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.wifiApLabel.setObjectName("wifiApLabel")
@@ -2711,6 +2816,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.wifiAp.setFont(font)
+        self.wifiAp.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.wifiAp.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.wifiAp.setObjectName("wifiAp")
@@ -2735,6 +2841,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.updateListWidget.setFont(font)
+        self.updateListWidget.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.updateListWidget.setStyleSheet(" QScrollBar:vertical {\n"
 "     border: 1px solid black;\n"
 "border-radius: 5px;\n"
@@ -2808,6 +2915,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.softwareUpdateBackButton.setFont(font)
+        self.softwareUpdateBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.softwareUpdateBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2842,6 +2950,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(17)
         self.performUpdateButton.setFont(font)
+        self.performUpdateButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.performUpdateButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -2879,6 +2988,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(10)
         self.logTextEdit.setFont(font)
+        self.logTextEdit.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.logTextEdit.setStyleSheet("QTextEdit{\n"
 "background-color:  rgb(40, 40, 40);\n"
 "/*font-color: white;*/\n"
@@ -2942,6 +3052,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(12)
         self.firmwareUpdateLog.setFont(font)
+        self.firmwareUpdateLog.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.firmwareUpdateLog.setStyleSheet("QTextEdit{\n"
 "background-color:  rgb(40, 40, 40);\n"
 "/*font-color: white;*/\n"
@@ -3004,6 +3115,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.firmwareUpdateBackButton.setFont(font)
+        self.firmwareUpdateBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.firmwareUpdateBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3042,6 +3154,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.calibrateLabel.setFont(font)
+        self.calibrateLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrateLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.calibrateLabel.setObjectName("calibrateLabel")
         self.calibrateBackButton = QtWidgets.QPushButton(self.calibratePage)
@@ -3051,6 +3164,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.calibrateBackButton.setFont(font)
+        self.calibrateBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrateBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3084,6 +3198,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(17)
         self.nozzleOffsetButton.setFont(font)
+        self.nozzleOffsetButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.nozzleOffsetButton.setStyleSheet("QToolButton {\n"
 "\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
@@ -3121,6 +3236,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.calibrationWizardButton.setFont(font)
+        self.calibrationWizardButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrationWizardButton.setStyleSheet("QToolButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3160,6 +3276,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(12)
         self.fullCalibrationButton.setFont(font)
+        self.fullCalibrationButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fullCalibrationButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3196,6 +3313,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.calibrationWizardLabel.setFont(font)
+        self.calibrationWizardLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrationWizardLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.calibrationWizardLabel.setObjectName("calibrationWizardLabel")
         self.calibrationWizardBackButton = QtWidgets.QPushButton(self.calibrationWizardPage)
@@ -3205,6 +3323,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.calibrationWizardBackButton.setFont(font)
+        self.calibrationWizardBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrationWizardBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3239,6 +3358,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(12)
         self.quickCalibrationButton.setFont(font)
+        self.quickCalibrationButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickCalibrationButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3276,6 +3396,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.calibrateLabel_6.setFont(font)
+        self.calibrateLabel_6.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrateLabel_6.setStyleSheet("color: rgb(255, 255, 255);")
         self.calibrateLabel_6.setWordWrap(True)
         self.calibrateLabel_6.setObjectName("calibrateLabel_6")
@@ -3285,6 +3406,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep1NextButton.setFont(font)
+        self.quickStep1NextButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep1NextButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3316,6 +3438,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep1CancelButton.setFont(font)
+        self.quickStep1CancelButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep1CancelButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3343,6 +3466,7 @@ class Ui_MainWindow(object):
         self.quickStep1CancelButton.setObjectName("quickStep1CancelButton")
         self.printPreviewSelected_3 = QtWidgets.QLabel(self.quickStep1Page)
         self.printPreviewSelected_3.setGeometry(QtCore.QRect(160, 110, 150, 150))
+        self.printPreviewSelected_3.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printPreviewSelected_3.setStyleSheet("background-color: rgba(255, 255, 255, 0);")
         self.printPreviewSelected_3.setText("")
         self.printPreviewSelected_3.setScaledContents(True)
@@ -3358,6 +3482,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.calibrateLabel_7.setFont(font)
+        self.calibrateLabel_7.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrateLabel_7.setStyleSheet("color: rgb(255, 255, 255);")
         self.calibrateLabel_7.setWordWrap(True)
         self.calibrateLabel_7.setObjectName("calibrateLabel_7")
@@ -3367,6 +3492,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep2NextButton.setFont(font)
+        self.quickStep2NextButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep2NextButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3398,6 +3524,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep2CancelButton.setFont(font)
+        self.quickStep2CancelButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep2CancelButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3432,6 +3559,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep3CancelButton.setFont(font)
+        self.quickStep3CancelButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep3CancelButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3463,6 +3591,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep3NextButton.setFont(font)
+        self.quickStep3NextButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep3NextButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3496,6 +3625,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.calibrateLabel_10.setFont(font)
+        self.calibrateLabel_10.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrateLabel_10.setStyleSheet("color: rgb(255, 255, 255);")
         self.calibrateLabel_10.setWordWrap(True)
         self.calibrateLabel_10.setObjectName("calibrateLabel_10")
@@ -3508,6 +3638,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep4CancelButton.setFont(font)
+        self.quickStep4CancelButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep4CancelButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3539,6 +3670,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep4NextButton.setFont(font)
+        self.quickStep4NextButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep4NextButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3572,6 +3704,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.calibrateLabel_12.setFont(font)
+        self.calibrateLabel_12.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrateLabel_12.setStyleSheet("color: rgb(255, 255, 255);")
         self.calibrateLabel_12.setWordWrap(True)
         self.calibrateLabel_12.setObjectName("calibrateLabel_12")
@@ -3586,6 +3719,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.calibrateLabel_25.setFont(font)
+        self.calibrateLabel_25.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrateLabel_25.setStyleSheet("color: rgb(255, 255, 255);")
         self.calibrateLabel_25.setWordWrap(True)
         self.calibrateLabel_25.setObjectName("calibrateLabel_25")
@@ -3595,6 +3729,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep5NextButton.setFont(font)
+        self.quickStep5NextButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep5NextButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3626,6 +3761,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep5CancelButton.setFont(font)
+        self.quickStep5CancelButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep5CancelButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3662,6 +3798,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.calibrateLabel_26.setFont(font)
+        self.calibrateLabel_26.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.calibrateLabel_26.setStyleSheet("color: rgb(255, 255, 255);")
         self.calibrateLabel_26.setWordWrap(True)
         self.calibrateLabel_26.setObjectName("calibrateLabel_26")
@@ -3671,6 +3808,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep6NextButton.setFont(font)
+        self.quickStep6NextButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep6NextButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3702,6 +3840,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.quickStep6CancelButton.setFont(font)
+        self.quickStep6CancelButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.quickStep6CancelButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3736,6 +3875,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(20)
         self.nozzleOffsetDoubleSpinBox.setFont(font)
+        self.nozzleOffsetDoubleSpinBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.nozzleOffsetDoubleSpinBox.setStyleSheet("QDoubleSpinBox {\n"
 "    padding-right: 5px; /* make room for the arrows */\n"
 "    color: rgb(255, 255, 255);\n"
@@ -3808,6 +3948,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.nozzleOffsetSetButton.setFont(font)
+        self.nozzleOffsetSetButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.nozzleOffsetSetButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3843,6 +3984,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.feedRateLabelControlPage_3.setFont(font)
+        self.feedRateLabelControlPage_3.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.feedRateLabelControlPage_3.setStyleSheet("color: rgb(255, 255, 255);")
         self.feedRateLabelControlPage_3.setWordWrap(True)
         self.feedRateLabelControlPage_3.setObjectName("feedRateLabelControlPage_3")
@@ -3853,6 +3995,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.nozzleOffsetBackButton.setFont(font)
+        self.nozzleOffsetBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.nozzleOffsetBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3886,6 +4029,7 @@ class Ui_MainWindow(object):
         self.nozzleOffsetBackButton.setObjectName("nozzleOffsetBackButton")
         self.printPreviewSelected_2 = QtWidgets.QLabel(self.nozzleOffsetPage)
         self.printPreviewSelected_2.setGeometry(QtCore.QRect(150, 90, 161, 161))
+        self.printPreviewSelected_2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printPreviewSelected_2.setStyleSheet("background-color: rgba(255, 255, 255, 0);")
         self.printPreviewSelected_2.setText("")
         self.printPreviewSelected_2.setPixmap(QtGui.QPixmap("templates/img/Nozzle Offset.png"))
@@ -3905,6 +4049,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.fromUsbButton.setFont(font)
+        self.fromUsbButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fromUsbButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3938,6 +4083,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.printFromLabel.setFont(font)
+        self.printFromLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printFromLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.printFromLabel.setObjectName("printFromLabel")
         self.printLocationScreenBackButton = QtWidgets.QPushButton(self.printLocationPage)
@@ -3947,6 +4093,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.printLocationScreenBackButton.setFont(font)
+        self.printLocationScreenBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printLocationScreenBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -3980,6 +4127,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.fromLocalButton.setFont(font)
+        self.fromLocalButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fromLocalButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4014,6 +4162,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(17)
         self.fileListWidget.setFont(font)
+        self.fileListWidget.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileListWidget.setStyleSheet("\n"
 "\n"
 "QListView {\n"
@@ -4066,6 +4215,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.localStorageBackButton.setFont(font)
+        self.localStorageBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.localStorageBackButton.setStyleSheet("QPushButton {\n"
 "        border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4104,6 +4254,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.localStorageSelectButton.setFont(font)
+        self.localStorageSelectButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.localStorageSelectButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4142,6 +4293,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.localStorageScrollDown.setFont(font)
+        self.localStorageScrollDown.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.localStorageScrollDown.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4184,6 +4336,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.localStorageScrollUp.setFont(font)
+        self.localStorageScrollUp.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.localStorageScrollUp.setStyleSheet("QPushButton {\n"
 "\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
@@ -4226,6 +4379,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.localStorageDeleteButton.setFont(font)
+        self.localStorageDeleteButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.localStorageDeleteButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4268,6 +4422,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.USBStorageSaveButton.setFont(font)
+        self.USBStorageSaveButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.USBStorageSaveButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4307,6 +4462,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.USBStorageScrollUp.setFont(font)
+        self.USBStorageScrollUp.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.USBStorageScrollUp.setStyleSheet("QPushButton {\n"
 "\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
@@ -4347,6 +4503,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.USBStorageSelectButton.setFont(font)
+        self.USBStorageSelectButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.USBStorageSelectButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4385,6 +4542,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.USBStorageBackButton.setFont(font)
+        self.USBStorageBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.USBStorageBackButton.setStyleSheet("QPushButton {\n"
 "        border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4423,6 +4581,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.USBStorageScrollDown.setFont(font)
+        self.USBStorageScrollDown.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.USBStorageScrollDown.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4462,6 +4621,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(17)
         self.fileListWidgetUSB.setFont(font)
+        self.fileListWidgetUSB.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileListWidgetUSB.setStyleSheet("\n"
 "\n"
 "QListView {\n"
@@ -4526,6 +4686,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStrikeOut(False)
         self.fileSelected.setFont(font)
+        self.fileSelected.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileSelected.setStyleSheet("color:  white;\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.fileSelected.setScaledContents(True)
@@ -4538,6 +4699,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.fileSelectedBackButton.setFont(font)
+        self.fileSelectedBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileSelectedBackButton.setStyleSheet("QPushButton {\n"
 "    border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -4571,6 +4733,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(14)
         self.fileSelectedPrintButton.setFont(font)
+        self.fileSelectedPrintButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileSelectedPrintButton.setStyleSheet("QToolButton {\n"
 "    border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4601,6 +4764,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.fileSizeSelected.setFont(font)
+        self.fileSizeSelected.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileSizeSelected.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.fileSizeSelected.setScaledContents(True)
@@ -4613,6 +4777,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.fileDateSelected.setFont(font)
+        self.fileDateSelected.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileDateSelected.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.fileDateSelected.setScaledContents(True)
@@ -4625,6 +4790,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.filePrintTimeSelected.setFont(font)
+        self.filePrintTimeSelected.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.filePrintTimeSelected.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.filePrintTimeSelected.setScaledContents(True)
@@ -4637,6 +4803,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.filamentVolumeSelected.setFont(font)
+        self.filamentVolumeSelected.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.filamentVolumeSelected.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.filamentVolumeSelected.setScaledContents(True)
@@ -4649,6 +4816,7 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.fileSizeSelectedLabel.setFont(font)
+        self.fileSizeSelectedLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileSizeSelectedLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.fileSizeSelectedLabel.setObjectName("fileSizeSelectedLabel")
         self.fileDateSelectedLabel = QtWidgets.QLabel(self.printSelectedLocalPage)
@@ -4659,6 +4827,7 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.fileDateSelectedLabel.setFont(font)
+        self.fileDateSelectedLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileDateSelectedLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.fileDateSelectedLabel.setObjectName("fileDateSelectedLabel")
         self.filePrintTimeSelectedLabel = QtWidgets.QLabel(self.printSelectedLocalPage)
@@ -4669,6 +4838,7 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.filePrintTimeSelectedLabel.setFont(font)
+        self.filePrintTimeSelectedLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.filePrintTimeSelectedLabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.filePrintTimeSelectedLabel.setWordWrap(True)
@@ -4681,6 +4851,7 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.filamentVolumeSelectedLabel.setFont(font)
+        self.filamentVolumeSelectedLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.filamentVolumeSelectedLabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.filamentVolumeSelectedLabel.setObjectName("filamentVolumeSelectedLabel")
@@ -4692,6 +4863,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.filamentLengthFileSelected.setFont(font)
+        self.filamentLengthFileSelected.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.filamentLengthFileSelected.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.filamentLengthFileSelected.setScaledContents(True)
@@ -4704,11 +4876,13 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.filamentLengthSelectedLabel.setFont(font)
+        self.filamentLengthSelectedLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.filamentLengthSelectedLabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.filamentLengthSelectedLabel.setObjectName("filamentLengthSelectedLabel")
         self.printPreviewSelected = QtWidgets.QLabel(self.printSelectedLocalPage)
         self.printPreviewSelected.setGeometry(QtCore.QRect(260, 20, 210, 210))
+        self.printPreviewSelected.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printPreviewSelected.setStyleSheet("background-color: rgba(255, 255, 255, 0);")
         self.printPreviewSelected.setText("")
         self.printPreviewSelected.setPixmap(QtGui.QPixmap("templates/img/thumbnail.png"))
@@ -4738,6 +4912,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(14)
         self.fileSelectedUSBTransferButton.setFont(font)
+        self.fileSelectedUSBTransferButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileSelectedUSBTransferButton.setStyleSheet("QToolButton {\n"
 "    border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4762,6 +4937,7 @@ class Ui_MainWindow(object):
         self.fileSelectedUSBTransferButton.setObjectName("fileSelectedUSBTransferButton")
         self.printPreviewSelectedUSB = QtWidgets.QLabel(self.printSelectedUSBPage)
         self.printPreviewSelectedUSB.setGeometry(QtCore.QRect(130, 20, 210, 210))
+        self.printPreviewSelectedUSB.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.printPreviewSelectedUSB.setStyleSheet("background-color: rgba(255, 255, 255, 0);")
         self.printPreviewSelectedUSB.setText("")
         self.printPreviewSelectedUSB.setPixmap(QtGui.QPixmap("templates/img/thumbnail.png"))
@@ -4774,6 +4950,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.fileSelectedUSBBackButton.setFont(font)
+        self.fileSelectedUSBBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileSelectedUSBBackButton.setStyleSheet("QPushButton {\n"
 "    border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -4808,6 +4985,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.fileSelectedUSBName.setFont(font)
+        self.fileSelectedUSBName.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileSelectedUSBName.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.fileSelectedUSBName.setObjectName("fileSelectedUSBName")
@@ -4818,6 +4996,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(14)
         self.fileSelectedUSBPrintButton.setFont(font)
+        self.fileSelectedUSBPrintButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fileSelectedUSBPrintButton.setStyleSheet("QToolButton {\n"
 "    border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -4854,6 +5033,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(12)
         self.controlTabWidget.setFont(font)
+        self.controlTabWidget.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.controlTabWidget.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.controlTabWidget.setAutoFillBackground(False)
         self.controlTabWidget.setStyleSheet("QTabWidget::pane { /* The tab widget frame */\n"
@@ -4919,6 +5099,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.feedRateLabelControlPage.setFont(font)
+        self.feedRateLabelControlPage.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.feedRateLabelControlPage.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.feedRateLabelControlPage.setObjectName("feedRateLabelControlPage")
@@ -4929,6 +5110,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.moveZMBabyStep.setFont(font)
+        self.moveZMBabyStep.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.moveZMBabyStep.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -4967,6 +5149,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.setFeedRateButton.setFont(font)
+        self.setFeedRateButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.setFeedRateButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -5003,6 +5186,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.flowRateLabelControlPage_5.setFont(font)
+        self.flowRateLabelControlPage_5.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.flowRateLabelControlPage_5.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.flowRateLabelControlPage_5.setObjectName("flowRateLabelControlPage_5")
@@ -5013,6 +5197,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.moveZPBabyStep.setFont(font)
+        self.moveZPBabyStep.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.moveZPBabyStep.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5051,6 +5236,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(24)
         self.feedRateSpinBox.setFont(font)
+        self.feedRateSpinBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.feedRateSpinBox.setStyleSheet("QSpinBox {\n"
 "    padding-right: 5px; /* make room for the arrows */\n"
 "    color: rgb(255, 255, 255);\n"
@@ -5131,6 +5317,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.toolLabel.setFont(font)
+        self.toolLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.toolLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.toolLabel.setObjectName("toolLabel")
         self.cooldownButton = QtWidgets.QPushButton(self.temperatureTab)
@@ -5140,6 +5327,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.cooldownButton.setFont(font)
+        self.cooldownButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.cooldownButton.setStyleSheet("QPushButton {\n"
 "    border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -5175,6 +5363,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.fanOffButton.setFont(font)
+        self.fanOffButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fanOffButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5215,6 +5404,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.fanOnButton.setFont(font)
+        self.fanOnButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.fanOnButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5253,6 +5443,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(20)
         self.toolTempSpinBox.setFont(font)
+        self.toolTempSpinBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.toolTempSpinBox.setStyleSheet("QSpinBox {\n"
 "    padding-right: 5px; /* make room for the arrows */\n"
 "    color: rgb(255, 255, 255);\n"
@@ -5322,6 +5513,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.setToolTempButton.setFont(font)
+        self.setToolTempButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.setToolTempButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -5356,6 +5548,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(20)
         self.bedTempSpinBox.setFont(font)
+        self.bedTempSpinBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.bedTempSpinBox.setStyleSheet("QSpinBox {\n"
 "    padding-right: 5px; /* make room for the arrows */\n"
 "    color: rgb(255, 255, 255);\n"
@@ -5426,6 +5619,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.bedLabel_2.setFont(font)
+        self.bedLabel_2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.bedLabel_2.setStyleSheet("color: rgb(255, 255, 255);")
         self.bedLabel_2.setObjectName("bedLabel_2")
         self.setBedTempButton = QtWidgets.QPushButton(self.temperatureTab)
@@ -5434,6 +5628,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.setBedTempButton.setFont(font)
+        self.setBedTempButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.setBedTempButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -5484,6 +5679,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.step1Button.setFont(font)
+        self.step1Button.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.step1Button.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "     border-bottom: none; /* no border for a flat push button */\n"
@@ -5522,6 +5718,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.step10Button.setFont(font)
+        self.step10Button.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.step10Button.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "     border-bottom: none; /* no border for a flat push button */\n"
@@ -5560,6 +5757,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.step100Button.setFont(font)
+        self.step100Button.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.step100Button.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "     border-bottom: none; /* no border for a flat push button */\n"
@@ -5599,6 +5797,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.moveYPButton.setFont(font)
+        self.moveYPButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.moveYPButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5637,6 +5836,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.moveYMButton.setFont(font)
+        self.moveYMButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.moveYMButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5676,6 +5876,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.moveXPButton.setFont(font)
+        self.moveXPButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.moveXPButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5717,6 +5918,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.moveXMButton.setFont(font)
+        self.moveXMButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.moveXMButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5756,6 +5958,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.homeXYButton.setFont(font)
+        self.homeXYButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.homeXYButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5795,6 +5998,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.homeZButton.setFont(font)
+        self.homeZButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.homeZButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5832,6 +6036,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.motorOffButton.setFont(font)
+        self.motorOffButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.motorOffButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "     border-bottom: none; /* no border for a flat push button */\n"
@@ -5871,6 +6076,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.moveZMButton.setFont(font)
+        self.moveZMButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.moveZMButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5910,6 +6116,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.moveZPButton.setFont(font)
+        self.moveZPButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.moveZPButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -5950,6 +6157,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.XYLabel.setFont(font)
+        self.XYLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.XYLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.XYLabel.setObjectName("XYLabel")
         self.ZLabel = QtWidgets.QLabel(self.motionTab)
@@ -5960,6 +6168,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.ZLabel.setFont(font)
+        self.ZLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ZLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.ZLabel.setObjectName("ZLabel")
         self.retractButton = QtWidgets.QPushButton(self.motionTab)
@@ -5969,6 +6178,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.retractButton.setFont(font)
+        self.retractButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.retractButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "\n"
@@ -6010,6 +6220,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(15)
         self.extruderButton.setFont(font)
+        self.extruderButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.extruderButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    border-top-left-radius: 15px;\n"
@@ -6051,6 +6262,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.ELabel.setFont(font)
+        self.ELabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ELabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.ELabel.setObjectName("ELabel")
         self.moveByLabel = QtWidgets.QLabel(self.motionTab)
@@ -6061,6 +6273,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.moveByLabel.setFont(font)
+        self.moveByLabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.moveByLabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.moveByLabel.setObjectName("moveByLabel")
         self.moveByLabel.raise_()
@@ -6093,6 +6306,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(12)
         self.changeFilamentButton.setFont(font)
+        self.changeFilamentButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.changeFilamentButton.setStyleSheet("QToolButton  {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6128,6 +6342,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.setFlowRateButton.setFont(font)
+        self.setFlowRateButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.setFlowRateButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6162,6 +6377,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(24)
         self.flowRateSpinBox.setFont(font)
+        self.flowRateSpinBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.flowRateSpinBox.setStyleSheet("QSpinBox {\n"
 "    padding-right: 5px; /* make room for the arrows */\n"
 "    color: rgb(255, 255, 255);\n"
@@ -6234,6 +6450,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.flowRateLabelControlPage.setFont(font)
+        self.flowRateLabelControlPage.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.flowRateLabelControlPage.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.flowRateLabelControlPage.setObjectName("flowRateLabelControlPage")
@@ -6244,6 +6461,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(12)
         self.toggleFilamentSensorButton.setFont(font)
+        self.toggleFilamentSensorButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.toggleFilamentSensorButton.setStyleSheet("QToolButton  {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6296,6 +6514,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.controlBackButton.setFont(font)
+        self.controlBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.controlBackButton.setStyleSheet("QPushButton {\n"
 "    border: none; /* no border for a flat push button */\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6335,6 +6554,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.selectFilamentlabel.setFont(font)
+        self.selectFilamentlabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.selectFilamentlabel.setStyleSheet("color: rgb(255, 255, 255);")
         self.selectFilamentlabel.setObjectName("selectFilamentlabel")
         self.changeFilamentComboBox = QtWidgets.QComboBox(self.changeFilamentPage)
@@ -6343,6 +6563,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(24)
         self.changeFilamentComboBox.setFont(font)
+        self.changeFilamentComboBox.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.changeFilamentComboBox.setStyleSheet(" QScrollBar:vertical {\n"
 "     border: 1px solid black;\n"
 "border-radius: 5px;\n"
@@ -6449,6 +6670,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(20)
         self.changeFilamentLoadButton.setFont(font)
+        self.changeFilamentLoadButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.changeFilamentLoadButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6483,6 +6705,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(20)
         self.changeFilamentUnloadButton.setFont(font)
+        self.changeFilamentUnloadButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.changeFilamentUnloadButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6518,6 +6741,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham Light")
         font.setPointSize(9)
         self.changeFilamentBackButton.setFont(font)
+        self.changeFilamentBackButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.changeFilamentBackButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6560,6 +6784,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.changeFilamentStatus.setFont(font)
+        self.changeFilamentStatus.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.changeFilamentStatus.setStyleSheet("color: rgb(255, 255, 255);")
         self.changeFilamentStatus.setObjectName("changeFilamentStatus")
         self.changeFilamentProgress = QtWidgets.QProgressBar(self.changeFilamentProgressPage)
@@ -6572,6 +6797,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         font.setStyleStrategy(QtGui.QFont.PreferAntialias)
         self.changeFilamentProgress.setFont(font)
+        self.changeFilamentProgress.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.changeFilamentProgress.setStyleSheet("QProgressBar::chunk {\n"
 "\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0.517, x2:0, y2:0.512, stop:0 rgba(255, 28, 35, 255), stop:1 rgba(255, 68, 74, 255));\n"
@@ -6600,6 +6826,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.changeFilamentNameOperation.setFont(font)
+        self.changeFilamentNameOperation.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.changeFilamentNameOperation.setStyleSheet("color: rgb(255, 255, 255);")
         self.changeFilamentNameOperation.setObjectName("changeFilamentNameOperation")
         self.changeFilamentBackButton2 = QtWidgets.QPushButton(self.changeFilamentProgressPage)
@@ -6608,6 +6835,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(13)
         self.changeFilamentBackButton2.setFont(font)
+        self.changeFilamentBackButton2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.changeFilamentBackButton2.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6637,6 +6865,7 @@ class Ui_MainWindow(object):
         self.changeFilamentBackButton2.setObjectName("changeFilamentBackButton2")
         self.label_2 = QtWidgets.QLabel(self.changeFilamentProgressPage)
         self.label_2.setGeometry(QtCore.QRect(190, 55, 100, 100))
+        self.label_2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.label_2.setStyleSheet("background-color: rgba(255, 255, 255, 0);")
         self.label_2.setText("")
         self.label_2.setPixmap(QtGui.QPixmap("templates/img/changeFilament2.png"))
@@ -6653,6 +6882,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.feedFilamentlabel.setFont(font)
+        self.feedFilamentlabel.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.feedFilamentlabel.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.feedFilamentlabel.setObjectName("feedFilamentlabel")
@@ -6662,6 +6892,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(16)
         self.loadDoneButton.setFont(font)
+        self.loadDoneButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.loadDoneButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6693,6 +6924,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(16)
         self.ExtrudeButton.setFont(font)
+        self.ExtrudeButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.ExtrudeButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6726,6 +6958,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.feedFilamentlabel_2.setFont(font)
+        self.feedFilamentlabel_2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.feedFilamentlabel_2.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.feedFilamentlabel_2.setObjectName("feedFilamentlabel_2")
@@ -6740,6 +6973,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.feedFilamentlabel_3.setFont(font)
+        self.feedFilamentlabel_3.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.feedFilamentlabel_3.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.feedFilamentlabel_3.setObjectName("feedFilamentlabel_3")
@@ -6749,6 +6983,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(16)
         self.unloadDoneButton.setFont(font)
+        self.unloadDoneButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.unloadDoneButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6782,6 +7017,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.feedFilamentlabel_4.setFont(font)
+        self.feedFilamentlabel_4.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.feedFilamentlabel_4.setStyleSheet("color: rgb(255, 255, 255);\n"
 "background-color: rgba(255, 255, 255, 0);")
         self.feedFilamentlabel_4.setObjectName("feedFilamentlabel_4")
@@ -6791,6 +7027,7 @@ class Ui_MainWindow(object):
         font.setFamily("Gotham")
         font.setPointSize(16)
         self.retractFilamentButton.setFont(font)
+        self.retractFilamentButton.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.retractFilamentButton.setStyleSheet("QPushButton {\n"
 "     border: 1px solid rgb(87, 87, 87);\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -6820,7 +7057,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.mainApplication)
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget.setCurrentIndex(30)
+        self.stackedWidget.setCurrentIndex(0)
         self.controlTabWidget.setCurrentIndex(3)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
