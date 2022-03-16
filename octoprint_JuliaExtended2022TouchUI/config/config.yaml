@@ -99,6 +99,8 @@ printerProfiles:
 serial:
   blacklistedPorts:
   - /dev/ttyS*
+  disconnectOnErrors: false
+  ignoreErrorsFromFirmware: true
 server:
   commands:
     serverRestartCommand: sudo shutdown -r now
