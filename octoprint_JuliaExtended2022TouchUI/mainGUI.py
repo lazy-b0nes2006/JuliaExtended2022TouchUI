@@ -3934,6 +3934,7 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "")
+        self.nozzleOffsetDoubleSpinBox.setFrame(False)
         self.nozzleOffsetDoubleSpinBox.setReadOnly(False)
         self.nozzleOffsetDoubleSpinBox.setButtonSymbols(QtWidgets.QAbstractSpinBox.UpDownArrows)
         self.nozzleOffsetDoubleSpinBox.setAccelerated(True)
@@ -7053,7 +7054,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         self.stackedWidget.setCurrentIndex(0)
-        self.controlTabWidget.setCurrentIndex(1)
+        self.controlTabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):

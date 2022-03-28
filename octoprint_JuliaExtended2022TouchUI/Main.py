@@ -1744,6 +1744,7 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
             os.system('sudo cp -f config/users.yaml /home/pi/.octoprint/users.yaml')
             os.system('sudo rm -rf /home/pi/.octoprint/printerProfiles/*')
             os.system('sudo rm -rf /home/pi/.octoprint/scripts/gcode')
+            os.system('sudo rm -rf /home/pi/.octoprint/print_restore.json')
             os.system('sudo cp -f config/config.yaml /home/pi/.octoprint/config.yaml')
             # os.system('sudo rm -rf /home/pi/.fw_logo.dat')
             self.tellAndReboot("Settings restored. Rebooting...")
