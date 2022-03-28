@@ -1112,8 +1112,6 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
         os.system('sudo /home/pi/setenv.sh')
 
 
-
-
     def showRotateDisplaySettingsPage(self):
 
         txt = (subprocess.Popen("cat /boot/config.txt", stdout=subprocess.PIPE, shell=True).communicate()[0]).decode("utf-8")
