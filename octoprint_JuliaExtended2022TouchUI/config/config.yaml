@@ -21,9 +21,9 @@ plugins:
     enabled_extruder0: '1'
     enabled_extruder1: '0'
     pause_print: '1'
+    sensor_enabled: '1'
   Julia2018PrintRestore:
     _config_version: 2
-    enableBabystep: true
   announcements:
     _config_version: 1
     channels:
@@ -34,27 +34,34 @@ plugins:
       _octopi:
         read_until: 1646055600
       _plugins:
-        read_until: 1646287200
+        read_until: 1648530000
       _releases:
         read_until: 1642677300
     enabled_channels:
     - _important
-    - _plugins
   discovery:
     upnpUuid: 7d61cbb7-f5c7-4221-949c-fd27225bf68e
   errortracking:
     unique_id: 4b7b81dd-6112-41ad-ba35-510c25fcb168
   firmwareupdater:
-    avrdude_avrmcu: m2560
-    avrdude_baudrate: '115200'
-    avrdude_path: /usr/bin/avrdude
-    avrdude_programmer: wiring
+    _config_version: 3
+    _selected_profile: 0
     check_after_connect: false
-    flash_method: avrdude
+    profiles:
+    - _id: 0
+      _name: Default
+      avrdude_avrmcu: m2560
+      avrdude_baudrate: 115200
+      avrdude_path: /usr/bin/avrdude
+      avrdude_programmer: wiring
+      flash_method: avrdude
   gcodeviewer:
     _config_version: 1
   softwareupdate:
     _config_version: 9
+    checks:
+      pi_support:
+        disabled: true
   tracking:
     enabled: false
     unique_id: bca9adfe-4139-4ffe-901d-071386764f1b
@@ -141,3 +148,4 @@ webcam:
   ffmpeg: /usr/bin/ffmpeg
   snapshot: http://127.0.0.1:8080/?action=snapshot
   stream: /webcam/?action=stream
+  streamRatio: '4:3'
