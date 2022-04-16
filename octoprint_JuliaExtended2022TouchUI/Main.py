@@ -1378,11 +1378,12 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
         Transfers a file from USB mounted at /media/usb0 to octoprint's watched folder so that it gets automatically detected bu Octoprint.
         Warning: If the file is read-only, octoprint API for reading the file crashes.
         '''
-
-        file = '/media/usb0/' + str(self.fileListWidgetUSB.currentItem().text())
-
-        self.uploadThread = ThreadFileUpload(file, prnt=prnt)
-        self.uploadThread.start()
+        try:
+            file = '/media/usb0/' + str(self.fileListWidgetUSB.currentItem().text())
+            self.uploadThread = ThreadFileUpload(file, prnt=prnt)
+            self.uploadThread.start()
+        except:
+            pass   
         if prnt:
             self.stackedWidget.setCurrentWidget(self.homePage)
 
