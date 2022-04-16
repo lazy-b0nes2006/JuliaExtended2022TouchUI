@@ -1398,9 +1398,11 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
         '''
         Deletes a gcode file, and if associates, its image file from the memory
         '''
-        octopiclient.deleteFile(self.fileListWidget.currentItem().text())
-        octopiclient.deleteFile(self.fileListWidget.currentItem().text().replace(".gcode", ".png"))
-
+        try:
+            octopiclient.deleteFile(self.fileListWidget.currentItem().text())
+            octopiclient.deleteFile(self.fileListWidget.currentItem().text().replace(".gcode", ".png"))
+        except:
+            pass
         # delete PNG also
         self.fileListLocal()
 
