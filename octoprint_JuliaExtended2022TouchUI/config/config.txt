@@ -64,6 +64,5 @@ dtoverlay=waveshare35a,fps=12,speed=16000000
 hdmi_cvt 480 320 12 6 0 0 0
 hdmi_drive=2
 disable_splash=1
-
 start_x=1
 gpu_mem=256
