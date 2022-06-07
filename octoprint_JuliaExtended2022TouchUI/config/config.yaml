@@ -43,6 +43,8 @@ plugins:
     upnpUuid: 7d61cbb7-f5c7-4221-949c-fd27225bf68e
   errortracking:
     unique_id: 4b7b81dd-6112-41ad-ba35-510c25fcb168
+  firmware_check:
+    ignore_infos: true
   firmwareupdater:
     _config_version: 3
     _selected_profile: 0
