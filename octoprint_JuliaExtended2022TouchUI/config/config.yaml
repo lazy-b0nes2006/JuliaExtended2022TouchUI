@@ -11,6 +11,8 @@ api:
   key: B508534ED20348F090B4D0AD637D3660
 appearance:
   name: Julia Extended
+feature:
+  sdSupport: false
 plugins:
   Julia2018FilamentSensor:
     _config_version: 2
