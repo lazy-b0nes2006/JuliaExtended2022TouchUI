@@ -56,11 +56,11 @@ enable_uart=1
 dtparam=audio=on
 dtoverlay=waveshare35a,fps=12,speed=16000000
 #dtoverlay=ads7846,cs=1,penirq=17,penirq_pull=2,speed=1000000,keep_vref_on=1,swapxy=1,pmax=255,xohms=60,xmin=200,xmax=3900,ymin=200,ymax=3900
-#hdmi_force_hotplug=1
+hdmi_force_hotplug=1
 #max_usb_current=1
-#hdmi_group=2
+hdmi_group=2
 #hdmi_mode=4
-#hdmi_mode=4
+hdmi_mode=87
 hdmi_cvt 480 320 12 6 0 0 0
 hdmi_drive=2
 disable_splash=1
