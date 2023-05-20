@@ -105,11 +105,19 @@ filaments = [
 
 filaments = OrderedDict(filaments)
 
-calibrationPosition = {'X1': 202, 'Y1': 31,
-                       'X2': 59, 'Y2': 31,
+# calibrationPosition = {'X1': 202, 'Y1': 31,
+#                        'X2': 59, 'Y2': 31,
+#                        'X3': 131, 'Y3': 233
+#                        }
+
+
+##### below is the position after getting typo issue on manual calibration screen in technoventor extended machine#####
+#####start change####
+calibrationPosition = {'X2': 202, 'Y2': 31,
+                       'X1': 59, 'Y1': 31,
                        'X3': 131, 'Y3': 233
                        }
-
+######end change#######
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
