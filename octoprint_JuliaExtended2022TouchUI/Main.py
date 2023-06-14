@@ -11,7 +11,7 @@
  * Licence: AGPLv3
 *************************************************************************
 """
-Development = False   # set to True if running on any system other than RaspberryPi
+Development = True   # set to True if running on any system other than RaspberryPi
 
 import mainGUI
 import keyboard
@@ -349,7 +349,7 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
 
         self.menuCartButton.setDisabled(True)
 
-        self.movie = QtGui.QMovie("templates/img/loading.gif")
+        self.movie = QtGui.QMovie("templates/img/loading-90.gif")
         self.loadingGif.setMovie(self.movie)
         self.movie.start()
 
