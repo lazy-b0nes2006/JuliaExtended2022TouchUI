@@ -1681,6 +1681,9 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
         :return:
         '''
         self.stackedWidget.setCurrentWidget(self.quickStep2Page)
+        self.movie1 = QtGui.QMovie("templates/img/calibration/calib1.gif")
+        self.calib1.setMovie(self.movie1)
+        self.movie1.start()
 
     def quickStep3(self):
         '''
@@ -1690,6 +1693,10 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
         self.stackedWidget.setCurrentWidget(self.quickStep3Page)
         octopiclient.jog(x=calibrationPosition['X1'], y=calibrationPosition['Y1'], absolute=True, speed=9000)
         octopiclient.jog(z=0, absolute=True, speed=1500)
+        self.movie1.stop()
+        self.movie2 = QtGui.QMovie("templates/img/calibration/calib2.gif")
+        self.calib2.setMovie(self.movie2)
+        self.movie2.start()
 
     def quickStep4(self):
         '''
@@ -1699,6 +1706,10 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
         octopiclient.jog(z=10, absolute=True, speed=1500)
         octopiclient.jog(x=calibrationPosition['X2'], y=calibrationPosition['Y2'], absolute=True, speed=9000)
         octopiclient.jog(z=0, absolute=True, speed=1500)
+        self.movie2.stop()
+        self.movie3 = QtGui.QMovie("templates/img/calibration/calib3.gif")
+        self.calib3.setMovie(self.movie3)
+        self.movie3.start()
 
     def quickStep5(self):
         '''
@@ -1710,6 +1721,10 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
         octopiclient.jog(z=10, absolute=True, speed=1500)
         octopiclient.jog(x=calibrationPosition['X3'], y=calibrationPosition['Y3'], absolute=True, speed=9000)
         octopiclient.jog(z=0, absolute=True, speed=1500)
+        self.movie3.stop()
+        self.movie4 = QtGui.QMovie("templates/img/calibration/calib4.gif")
+        self.calib4.setMovie(self.movie4)
+        self.movie4.start()
 
     # def quickStep6(self):
     #     '''
@@ -1726,6 +1741,7 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
         '''
 
         self.stackedWidget.setCurrentWidget(self.calibratePage)
+        self.movie4.stop()
         octopiclient.gcode(command='M501')  # restore eeprom settings to get Z home offset, mesh bed leveling back
         octopiclient.home(['x', 'y', 'z'])
 
@@ -1733,6 +1749,13 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
     def cancelStep(self):
         octopiclient.gcode(command='M501')  # restore eeprom settings
         self.stackedWidget.setCurrentWidget(self.calibratePage)
+        try:
+            self.movie1.stop()
+            self.movie2.stop()
+            self.movie3.stop()
+            self.movie4.stop()
+        except:
+            pass
 
     ''' +++++++++++++++++++++++++++++++++++Keyboard++++++++++++++++++++++++++++++++ '''
 
